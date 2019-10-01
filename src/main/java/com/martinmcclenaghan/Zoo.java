@@ -7,6 +7,10 @@ public class Zoo {
 
     private List<Animal> animals;
 
+    public Zoo() {
+        this.animals = new ArrayList<>();
+    }
+
     public List<Animal> getAnimals (){
         return new ArrayList<>(animals);
     }
